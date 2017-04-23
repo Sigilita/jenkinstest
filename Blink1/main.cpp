@@ -4,7 +4,7 @@
 #include <wiringPi.h>
 #include <softPwm.h>
 #include <stdio.h>
-// comment to test jenkins2
+// comment to test jenkins3
 enum TPin
 {
 	RED_LED_PIN = 5,
