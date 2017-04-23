@@ -1,0 +1,41 @@
+﻿Build started 07/08/2016 22:04:56.
+     1>Project "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\Blink1.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\obj\ARM\test\Blink1.tlog\Blink1.lastbuildstate".
+       _RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         Creating "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\obj\ARM\test\Blink1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'ARM' is compatible with the remote machine architecture 'armv7l'.
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely
+         Copying file 'C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\main.cpp' to '/root/projects/Blink1/main.cpp'
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking g++
+         g++ -c -x c++ /root/projects/Blink1/main.cpp -g1 -o "/root/projects/Blink1/obj/ARM/test/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O3 -fno-strict-aliasing -fomit-frame-pointer -DNDEBUG -fthreadsafe-statics -fexceptions -frtti -std=c++11 -lwiringPi -lpthread 
+         main.cpp
+         
+         Done compiling '/root/projects/Blink1/main.cpp'
+         Copying file '/root/projects/Blink1/obj/ARM/test/main.o' to 'C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\obj\ARM\test\main.o'
+       Link:
+         Linking objects
+         Invoking ld
+         g++ -o "/root/projects/Blink1/bin/ARM/test/Blink1.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -lwiringPi -lpthread /root/projects/Blink1/obj/ARM/test/main.o
+         
+         Done linking, output file name: '/root/projects/Blink1/bin/ARM/test/Blink1.out'
+         Copying file '/root/projects/Blink1/bin/ARM/test/Blink1.out' to 'C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\bin\ARM\test\Blink1.out'
+         Blink1.vcxproj -> C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\bin\ARM\test\Blink1.out
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\obj\ARM\test\Blink1.tlog\unsuccessfulbuild".
+         Touching "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\obj\ARM\test\Blink1.tlog\Blink1.lastbuildstate".
+     1>Done Building Project "C:\Users\Nasser\Documents\Visual Studio 2015\Projects\Blink1\Blink1\Blink1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.79
